@@ -55,10 +55,9 @@ const deleteStudent = async () => {
     }
 };
 
-deleteStudent();
 
-//studentsQuery();
 
+addStudent();
 // showStudents();
-
-// addStudent();
+//studentsQuery();
+//deleteStudent();
