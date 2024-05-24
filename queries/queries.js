@@ -55,7 +55,15 @@ const deleteStudent = async () => {
     }
 };
 
-
+if (option === 'add') {
+    addStudent();
+} else if (option === 'show') {
+    showStudents();
+} else if (option === 'query') {
+    studentsQuery();
+} else if (option === 'delete') {
+    deleteStudent();
+}
 
 addStudent();
 // showStudents();
