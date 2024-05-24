@@ -38,7 +38,16 @@ npm i express pg dotenv pg
 Instrucciones para ejecutar el proyecto una vez instalado.
 
 ```bash
- node queries/queries mostrare Peter 160182998
+ node queries/queries add Rayan 960182998 trompet 3
+```
+```bash
+ node queries/queries show Peter 160182998
+```
+```bash
+ node queries/queries query Peter 160182998
+```
+```bash
+ node queries/queries delete 160182998
 ```
 
 ## Licencia
